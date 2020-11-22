@@ -3,4 +3,16 @@ authors = ["Author Name"]
 language = "en"
 multilingual = false
 src = "src"
-title = "My mdbook Template"
+title = "my mdBook template"
+
+[output.html]
+additional-css = [
+    "katex/katex.min.css",
+    "custom.css",
+]
+
+additional-js  = [
+    "katex/katex.min.js",
+    "katex/contrib/auto-render.min.js",
+    "custom.js",
+]

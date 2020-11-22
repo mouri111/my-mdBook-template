@@ -1,0 +1,6 @@
+{
+  "name": "my-mdbook-template",
+  "dependencies": {
+    "katex": "^0.12.0"
+  }
+}
